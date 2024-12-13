@@ -92,3 +92,6 @@ footer div:nth-child(3){
 a{
     text-decoration: none;
 }
+#container{
+    flex-wrap: wrap;
+}
