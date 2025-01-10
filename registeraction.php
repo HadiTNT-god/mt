@@ -12,13 +12,13 @@ if(isset($_POST["username"]) && !empty($_POST["username"])
     $email=$_POST["email"];
     $password=$_POST["passw"];
     $repassword=$_POST["repassw"];
-    echo("نام");
+    echo("<p>نام</p>");
     echo("<p>".$username."</p>");
-    echo("ایمیل");
+    echo("<p>ایمیل</p>");
     echo("<p>".$email."</p>");
-    echo("رمز");
+    echo("<p>رمز</p>");
     echo("<p >".$password."</p>");
-    echo("رمز");
+    echo("<p>رمز</p>");
     echo("<p>".$repassword."</p>");
 }
 
